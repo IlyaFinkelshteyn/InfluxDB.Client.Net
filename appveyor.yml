@@ -17,6 +17,6 @@ deploy:
   api_key:
     secure: nlBDuJJE7GoAtSvHKJDjdutExvlEQErL8Q9gFqmhURY4xUgFT946cs2mLeQ2Qezi
   on:
-    branch: master
+    branch: master2
 before_test:
 - ps: tests\InfluxDB.Client.Net.TestSetup.ps1
